@@ -1,0 +1,420 @@
+.App{
+  text-align: center;
+  align-items: center;
+}
+/* App.js css for footer flowers */
+.spring{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  /*background-color: darkslategrey;*/
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.ul-ion-icon-com{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+  margin-top: -2.5em;
+}
+.App-flower{
+  height: 20em;
+  width: 20em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-flower {
+    animation: App-flower-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-flower-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* about page */
+
+.loading {
+  height: 13em;
+  width: 10em;
+  margin:7em;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.7);
+  }
+}
+
+.loading {
+  animation: pulse 15s infinite alternate;
+}
+
+/* about each flower about page */
+
+.eachFlowerImage{
+  height:13em;
+  width: 10em;
+  /*transition: var(--transition);*/
+  transition-delay:1.5s;
+}
+
+.eachFlowerImage:hover{
+  height:26em;
+  width: 20em;
+}
+
+.imageBouquetAbout{
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+@media screen and (min-width: 960px) {
+  .imageBouquetAbout{
+    display: flex;
+    justify-content:center;
+  }
+
+}
+
+/* header shopping cart */
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+header a{
+  color:yellowgreen;
+}
+
+header a:hover{
+  color:mediumspringgreen;
+}
+
+@media screen and (min-width: 960px) {
+  header {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+  }
+
+  header a{
+    color:lightpink;
+  }
+
+  header a:hover{
+    color:hotpink;
+  }
+
+}
+
+/* main and basket shopping cart components*/
+
+.shoppingComponents{
+  padding-right: 3.5em;
+  padding-left: 3.5em;
+  /*flex-wrap: wrap;*/
+}
+
+
+.hrMobile{
+  background-color:floralwhite;
+  height: 0.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+
+@media screen and (max-width: 959px) {
+  .hrScreen{
+    display:none;
+  }
+
+  .hrScreenFlower{
+    display:none;
+  }
+}
+
+
+@media screen and (min-width: 960px) {
+
+  .shoppingComponents{
+    justify-content: center;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    /*flex-wrap: wrap;*/
+  }
+
+  .hrMobile{
+    display:none;
+  }
+
+  .hrScreen{
+    background-color:floralwhite;
+    height: 0.3em;
+    width: 25%;
+    margin-top: -1.1em;
+    margin-bottom: 1.5em;
+  }
+
+  .leftFlower{
+    margin-right: -0.3em;
+    color:floralwhite;
+  }
+
+  .rightFlower{
+    margin-left: -0.3em;
+    color:floralwhite;
+  }
+}
+
+/* logo */
+
+.logo{
+  display:flex;
+}
+
+@media screen and (max-width: 959px) {
+  .logo {
+    color:floralwhite;
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (min-width: 960px) {
+
+  .svgFlowerLogo{
+    height: 3.5em;
+    margin-top: -0.5em;
+  }
+
+  .logo {
+    color:darkslategrey;
+    font-size: 1.7em;
+  }
+  .word{
+    text-shadow: 2px 2px 4px darkslategrey;
+    margin-right: 0.1em;
+    font-weight: bold;
+  }
+  .up{
+    letter-spacing: 0.3em;
+  }
+  .down{
+    letter-spacing: 0.5em;
+    margin-top: 0.3em;
+  }
+}
+
+
+
+/* first component home page:LinkHomePageAtom */
+
+
+
+.menu{
+  padding-top: 47vh;
+  text-align: center;
+}
+/*I WANT A PHOTO BACKGROUND*/
+.menu{
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+
+  background-image: url(https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 2px 4px darkslategrey;
+  /*border:3px solid red;*/
+}
+
+.menu li{
+  display: inline-block;
+  padding-left:1.7em;
+  padding-right:1.7em;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.menu li a{
+  background-color: rgba(15, 231, 15,0.3);
+  border-radius: 1em;
+  padding-left:0.7em;
+  padding-right:0.7em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  color: floralwhite;
+  box-shadow: 1px 1px 1px 1px gray;
+
+  transition: 1.5s;
+}
+
+.menu li a:hover{
+  color: mediumspringgreen;
+}
+
+@media screen and (max-width: 959px) {
+  .menu li a{
+    padding-left:0.5em;
+    padding-right:0.5em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+}
+                                                                    /*home first component link from Atom*/
+.homeSection{
+  height: 100vh;
+  /*background-color: yellow;*/
+  /*border:7px solid blue;*/
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (max-width: 959px) {
+  .homeSection{
+    height: 100vh;
+    display:flex;
+     justify-content: space-evenly;
+    align-items: center;
+      flex-wrap: wrap;
+     margin-bottom: 0.5em;
+      margin-top: 0.5em;
+  }
+}
+
+.pageSeasonImage{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1em;
+}
+
+.pageSeasonInfo{
+  width: 50%;
+  margin-right: 1em;
+}
+
+.homeSection img{
+  height: 70vh;
+}
+
+
+@media screen and (min-width: 960px) {
+  .pageSeasonImage{
+
+    margin-left: -15em;
+  }
+
+  .pageSeasonInfo{
+
+    margin-right: -15em;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .homeSection img{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    height: 40vh;
+  }
+}
+
+
+
+@media screen and (min-width: 960px) {
+  .homeSection h3{
+    margin-bottom: 7em;
+    margin-top: -7em;
+  }
+  .homeSection ul{
+    margin-bottom: -7em;
+    margin-top: 7em;
+  }
+}
+
+.pageSeasonInfo{
+  position: relative;
+}
+/*span 1 before h3 2 after*/
+
+@media screen and (min-width: 960px) {
+  .homeSection span:nth-of-type(1){
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: lightpink;
+    border: 5px solid hotpink;
+    border-radius: 1.5em;
+    top:-9.5em;
+    left:7em;
+  }
+
+  .homeSection span:nth-of-type(1):hover{
+    background-color: darkslategrey;
+    border: 5px solid floralwhite;
+  }
+
+  .homeSection span:nth-of-type(2){
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: lightpink;
+    border: 5px solid hotpink;
+    border-radius: 1.5em;
+    top:-9.5em;
+    right:7em;
+  }
+
+  .homeSection span:nth-of-type(2):hover{
+    background-color: darkslategrey;
+    border: 5px solid floralwhite;
+  }
+}
+
+/*before effect for each li*/
+
+
+.pageSeasonInfo ul p{
+  margin-left: 2em;
+  position: relative;
+  text-align: left;
+}
+
+.pageSeasonInfo ul li p::before{
+  content: "";
+  display: block;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  top:-0.1em;
+  left:-2.3em;
+}

@@ -502,12 +502,12 @@ header a:hover{
 
  #h5DetailAbout{
    position: relative;
-   margin-left: 50%;
+   margin-right: 50%;
    line-height:3em;
    letter-spacing: 0.1em;
 
 }
-  #h5DetailAbout::before{
+  #h5DetailAbout::after{
     content: "";
     display: block;
     position: absolute;
@@ -519,7 +519,7 @@ header a:hover{
     background-position: center;
     background-size: contain;
     top:-15%;
-    left:-40em;
+    right:-65em;
   }
 
 }

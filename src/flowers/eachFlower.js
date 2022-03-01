@@ -33,9 +33,9 @@ const EachFlower = () => {
                <img src={image} alt="name" className="eachFlowerImage shadow"/>
            </div>
 
-                <h3 className="App">{name}</h3>
+                <h3 className="App" id="h3DetailAbout">{name}</h3>
 
-                <h5 className="App">{info}</h5>
+                <h5 className="App" id="h5DetailAbout">{info}</h5>
                 <Link to="/about" >
                     <button> Back </button>
                 </Link>

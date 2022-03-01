@@ -52,6 +52,18 @@ const LinkHomePageAtom = () => {
                     </div>
                 </section>
 
+                    <hr className="hrMobile"></hr>
+
+                    <div style={{display:"flex" , alignItems:"center" , justifyContent:"center"}}>
+                        <h1 className="hrScreenFlower leftFlower">
+                            <ion-icon name="flower-sharp"></ion-icon>
+                        </h1>
+                        <div className="hrScreen"></div>
+                        <h1 className="hrScreenFlower rightFlower">
+                            <ion-icon name="flower-sharp"></ion-icon>
+                        </h1>
+                    </div>
+
                     <section id="summerHomePage" className="homeSection section">
                         <div className="pageSeasonImage">
                             <img src="https://images.unsplash.com/photo-1530092285049-1c42085fd395?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
@@ -84,6 +96,18 @@ const LinkHomePageAtom = () => {
                             </ul>
                         </div>
                     </section>
+
+                    <hr className="hrMobile"></hr>
+
+                    <div style={{display:"flex" , alignItems:"center" , justifyContent:"center"}}>
+                        <h1 className="hrScreenFlower leftFlower">
+                            <ion-icon name="flower-sharp"></ion-icon>
+                        </h1>
+                        <div className="hrScreen"></div>
+                        <h1 className="hrScreenFlower rightFlower">
+                            <ion-icon name="flower-sharp"></ion-icon>
+                        </h1>
+                    </div>
 
                     <section id="autumnHomePage" className="homeSection section">
                         <div className="pageSeasonImage">

@@ -6,7 +6,9 @@ function About(){
     return (
         <>
             <div className="section">
-                <h3 style={{marginTop : "1.5em" , marginBottom:"0.5em"}}>Bouquets of flowers</h3>
+                <h3 style={{marginTop : "1.5em" , marginBottom:"0.5em"}} id="aboutPageH3">
+                    <strong>Bouquets of flowers</strong>
+                </h3>
             <ManyFlowers/>
             </div>
         </>

@@ -3,15 +3,8 @@ import { beautifulDataFlower } from './dataFlower';
 import { Link } from 'react-router-dom';
 import "../App.css";
 
-
-
-
-
-
 const ManyFlowers = () => {
     const [flowerPlant, setFlowerPlant] = useState(beautifulDataFlower);
-
-
 
     return (
         <>

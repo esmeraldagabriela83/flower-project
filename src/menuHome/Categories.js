@@ -28,17 +28,3 @@ const Categories = ({filterItems}) => {
 };
 
 export default Categories;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
